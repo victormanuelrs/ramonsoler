@@ -44,13 +44,14 @@ main {
     display: flex;
     position: relative;
     padding: 0px 60px;
-    gap: 60px;
+    gap: 50px;
 }
 main .container div {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
+    align-items: center;
 }
 main .container div h3 {
     text-align: center;
@@ -63,7 +64,7 @@ main .container div h3 {
 main .container div img {
     border-radius: 4px;
     height: auto;
-    width: 200px;
+    width: 160px;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 footer {
